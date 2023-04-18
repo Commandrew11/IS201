@@ -1,0 +1,59 @@
+.common{
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.header{
+    background-color: black;
+    color: white;
+    /* By matching height and line height the words within the header are centered */
+    height: 100px;
+    line-height: 100px;
+}
+
+.mainbody {
+    background-color: whitesmoke;
+    /* height is not indicated here because if it's not fixed, it will adjust to the content within it */
+
+}
+
+.footer{
+    height: 25px;
+    background-color: black;
+    color:white;
+    line-height: 25px;
+    position:fixed;
+    bottom: 0px;
+    left:5px;
+    right:5px;
+}
+
+img{
+    /* display block means that the element is going to take up the entire 
+    width of the container (in this case, the div) */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:25%;
+}
+
+nav{
+    background-color: lightgray;
+    padding: 10px;
+    overflow: hidden;
+}
+
+nav a{
+    /* float left moves the elements within the navigation bar over to the left */
+    float: left;
+    color: black;
+    padding: 10px 13px;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover{
+    background-color: #ccc;
+}
